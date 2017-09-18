@@ -1,0 +1,34 @@
+{
+  "name": "ez-express-typescript",
+  "version": "1.0.0",
+  "description": "Express + TypeScript",
+  "main": "index.js",
+  "author": "Chonchanok M.",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "grunt": "grunt",
+    "start": "node ./bin/www"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/errorhandler": "^0.0.31",
+    "@types/method-override": "^0.0.30",
+    "@types/morgan": "^1.7.32",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "typescript": "^2.5.2"
+  }
+}
